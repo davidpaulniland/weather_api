@@ -1,0 +1,32 @@
+[
+  {
+    "sensor_id": "sensor_avg",
+    "timestamp": "2025-03-29 12:00:00",
+    "metrics": {
+      "temperature": 20.0,
+      "humidity": 50.0
+    }
+  },
+  {
+    "sensor_id": "sensor_avg",
+    "timestamp": "2025-03-30 12:00:00",
+    "metrics": {
+      "temperature": 22.0,
+      "humidity": 60.0
+    }
+  },
+  {
+    "sensor_id": "sensor_stats",
+    "timestamp": "2025-03-29 10:00:00",
+    "metrics": {
+      "humidity": 40.0
+    }
+  },
+  {
+    "sensor_id": "sensor_stats",
+    "timestamp": "2025-03-29 11:00:00",
+    "metrics": {
+      "humidity": 60.0
+    }
+  }
+]
