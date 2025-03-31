@@ -2,27 +2,28 @@
 
 **Python version: 3.11.5**
 
-### Create virtual env
+## Setup
+#### Create virtual env
 python3 -m venv venv
 source venv/bin/activate
 
-### Install dependencies
+#### Install dependencies
 pip install -r requirements.txt
 
 
-### FastAPI app with auto-reload
+#### FastAPI app with auto-reload
 uvicorn app.main:app --reload
 
-### Manual run
+#### Manual run
 python3 -m app.main
 
 
-### Run tests
+#### Run tests
 pytest tests/tests.py
 
 
 
-### Notes
+## Notes
 
 This app stores data in a JSON file (sensors.json) for simplicity.
 
